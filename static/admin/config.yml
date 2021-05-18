@@ -14,7 +14,7 @@ collections:
     extension: "md"
     format: "frontmatter"
     editor:
-      preview: false
+      preview: true
     fields:
       # - name: 'menu'
       #   label: 'Menu'
@@ -63,7 +63,7 @@ collections:
     extension: "md"
     format: "frontmatter"
     editor:
-      preview: false
+      preview: true
     fields:
       - { label: "Slug", name: "id", widget: "string" }
       - { label: "Title", name: "title", widget: "string" }
@@ -128,7 +128,7 @@ collections:
     extension: "js"
     format: "frontmatter"
     editor:
-      preview: false
+      preview: true
     fields:
       - { label: "Slug", name: "id", widget: "string" }
       - { label: "Title", name: "title", widget: "string" }
