@@ -14,7 +14,7 @@ collections:
     editor:
       preview: true
     fields:
-      - { label: "Slug", name: "id", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Author", name: "author", required: false }
       - {
@@ -43,7 +43,6 @@ collections:
           default: [],
           required: false,
         }
-      - { label: "Draft", name: "draft", widget: "boolean", default: true }
       - {
           label: "Date",
           name: "date",
