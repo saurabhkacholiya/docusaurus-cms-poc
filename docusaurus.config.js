@@ -2,12 +2,12 @@
 module.exports = {
   title: "My Site",
   tagline: "Dinosaurs are cool",
-  url: "https://saurabhkacholiya.github.io/",
+  url: "https://saurabhkacholiya.github.io",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "saurabhkacholiya", // Usually your GitHub org/user name.
+  organizationName: "saurabhkacholiya.github.io", // Usually your GitHub org/user name.
   projectName: "docusaurus-cms-poc", // Usually your repo name.
   themeConfig: {
     navbar: {
@@ -90,7 +90,7 @@ module.exports = {
         blog: {
           showReadingTime: true,
           // routeBasePath: "/",
-          // path: "./blog",
+          path: "blog",
           // Please change this to your repo.
           editUrl:
             "https://github.com/facebook/docusaurus/edit/master/website/blog/",
