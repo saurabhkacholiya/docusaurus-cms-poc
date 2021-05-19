@@ -3,122 +3,15 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
 media_folder: "assets/uploads"
 collections:
-  - name: "docs"
-    label: "Docs"
-    label_singular: "Doc"
-    folder: "docs"
-    path: "{{menu}}/{{id}}"
-    create: true
-    slug: "{{id}}"
-    identifier_field: "title"
-    extension: "md"
-    format: "frontmatter"
-    editor:
-      preview: true
-    fields:
-      # - name: 'menu'
-      #   label: 'Menu'
-      - { label: "Slug", name: "id", widget: "string" }
+  - name: "blog" # Used in routes, e.g., /admin/collections/blog
+    label: "Blog" # Used in the UI
+    folder: "./blog" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Title", name: "title", widget: "string" }
-      - {
-          label: "Hide Title",
-          name: "hide_title",
-          widget: "boolean",
-          default: false,
-        }
-      - {
-          label: "Sidebar Label",
-          name: "sidebar_label",
-          widget: "string",
-          required: false,
-        }
-      - {
-          label: "Keywords",
-          name: "keywords",
-          widget: "list",
-          default: [],
-          required: false,
-        }
-      - { label: "Description", name: "description", required: false }
-      - {
-          label: "Image",
-          name: "image",
-          widget: "image",
-          allow_multiple: false,
-          required: false,
-        }
-      - { label: "Body", name: "body", widget: "markdown" }
-  - name: "blog"
-    label: "Blog"
-    folder: "blog"
-    create: true
-    slug: "{{date}}-{{id}}"
-    identifier_field: "title"
-    extension: "md"
-    format: "frontmatter"
-    editor:
-      preview: true
-    fields:
-      - { label: "Slug", name: "id", widget: "string" }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Author", name: "author", required: false }
-      - {
-          label: "Author Title",
-          name: "author_title",
-          widget: "string",
-          required: false,
-        }
-      - {
-          label: "Author URL",
-          name: "author_url",
-          widget: "string",
-          required: false,
-        }
-      - {
-          label: "Author Image",
-          name: "author_image_url",
-          widget: "image",
-          allow_multiple: false,
-          required: false,
-        }
-      - {
-          label: "Tags",
-          name: "tags",
-          widget: "list",
-          default: [],
-          required: false,
-        }
-      - { label: "Draft", name: "draft", widget: "boolean", default: true }
-      - {
-          label: "Date",
-          name: "date",
-          widget: "datetime",
-          format: "YYYY-MM-DD",
-          timeFormat: false,
-        }
-      - { label: "Description", name: "description", required: false }
-      - {
-          label: "Image",
-          name: "image",
-          widget: "image",
-          allow_multiple: false,
-          required: false,
-        }
-      - { label: "Body", name: "body", widget: "markdown" }
-  - name: "pages"
-    label: "Pages"
-    label_singular: "Page"
-    folder: "src/pages"
-    path: "{{id}}"
-    create: true
-    slug: "{{id}}"
-    identifier_field: "title"
-    extension: "js"
-    format: "frontmatter"
-    editor:
-      preview: true
-    fields:
-      - { label: "Slug", name: "id", widget: "string" }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", required: false }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Featured Image", name: "thumbnail", widget: "image" }
+      - { label: "Rating (scale of 1-5)", name: "rating", widget: "number" }
       - { label: "Body", name: "body", widget: "markdown" }
