@@ -27,12 +27,6 @@ collections:
           default: false,
         }
       - {
-          label: "Hide Table of Contents",
-          name: "hide_table_of_contents",
-          widget: "boolean",
-          default: false,
-        }
-      - {
           label: "Sidebar Label",
           name: "sidebar_label",
           widget: "string",
@@ -86,12 +80,6 @@ collections:
           widget: "image",
           allow_multiple: false,
           required: false,
-        }
-      - {
-          label: "Hide Table of Contents",
-          name: "hide_table_of_contents",
-          widget: "boolean",
-          default: false,
         }
       - {
           label: "Tags",
