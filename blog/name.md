@@ -1,15 +1,16 @@
 ---
-slug: name
+id: name
 title: name
 author: Yangshun Tay
 author_title: Front End Engineer @ Facebook
 author_url: https://github.com/yangshun
 author_image_url: https://avatars0.githubusercontent.com/u/1315101?s=400&v=4
-tags: [facebook, hello, docusaurus]
+draft: true
+slug: name
+tags:
+  - facebook
+  - hello
+  - docusaurus
+date: 2021-05-19
 ---
-
-Blog features are powered by the blog plugin. Simply add files to the `blog` directory. It supports tags as well!
-
-Delete the whole directory if you don't want the blog features. As simple as that!
-
-this is it this is it this is it this is it this is it this is it this is it this is it this is it this is it this is it this is it this is it this is it this is it this is it this is it this is it this is it this is it this is it this is it this is it this is it this is it this is it this is it this is it this is it this is it this is it this is it this is it
+lets see if its head or tail
