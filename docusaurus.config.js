@@ -90,7 +90,7 @@ module.exports = {
         blog: {
           showReadingTime: true,
           // routeBasePath: "/",
-          path: "blog",
+          // path: "blog",
           // Please change this to your repo.
           editUrl:
             "https://github.com/facebook/docusaurus/edit/master/website/blog/",
