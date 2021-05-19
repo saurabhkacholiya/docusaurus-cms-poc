@@ -20,10 +20,10 @@ module.exports = {
         {
           type: "doc",
           docId: "intro",
-          position: "left",
+          position: "right",
           label: "Tutorial",
         },
-        { to: "/blog", label: "Blog", position: "left" },
+        { to: "/blog", label: "Blog", position: "right" },
         {
           href: "https://github.com/facebook/docusaurus",
           label: "GitHub",
@@ -89,6 +89,8 @@ module.exports = {
         },
         blog: {
           showReadingTime: true,
+          // routeBasePath: "/",
+          // path: "./blog",
           // Please change this to your repo.
           editUrl:
             "https://github.com/facebook/docusaurus/edit/master/website/blog/",
