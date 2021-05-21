@@ -4,7 +4,7 @@ module.exports = {
   tagline: "Dinosaurs are cool",
   url: "https://saurabhkacholiya.github.io",
   baseUrl: "/",
-  onBrokenLinks: "throw",
+  onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   favicon:
     "https://d13ir53smqqeyp.cloudfront.net/contain/marketing/landing_pages/favicon.ico",
@@ -94,8 +94,8 @@ module.exports = {
         },
         blog: {
           showReadingTime: true,
+          path: "./blog",
           routeBasePath: "/",
-          path: "blog",
           // Please change this to your repo.
           editUrl:
             "https://github.com/facebook/docusaurus/edit/master/website/blog/",

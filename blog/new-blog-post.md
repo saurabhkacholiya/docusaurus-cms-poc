@@ -6,7 +6,7 @@ description: >-
 date: "2017-02-25T11:42:08.652Z"
 categories: []
 keywords: []
-slug: /@vishwanatharondekar/cli-gitlab-gitlab-cli-b5984dc7f7be
+slug: cli-gitlab-gitlab-cli-b5984dc7f7be
 ---
 
 Do you use [gitlab](https://gitlab.com)? Do you create lot of merge requests for code review? You also like working on the command line. Wouldn't it be great to have your merge requests created from the command line itself.
