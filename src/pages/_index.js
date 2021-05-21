@@ -56,6 +56,11 @@ export default function Home() {
     >
       <Head>
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com"></link>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap"
+          rel="stylesheet"
+        ></link>
       </Head>
       <HomepageHeader />
       <main>

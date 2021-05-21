@@ -4,15 +4,15 @@
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
-import React from 'react';
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import {useThemeConfig} from '@docusaurus/theme-common';
-import useBaseUrl from '@docusaurus/useBaseUrl';
-import styles from './styles.module.css';
-import ThemedImage from '@theme/ThemedImage';
+import React from "react";
+import clsx from "clsx";
+import Link from "@docusaurus/Link";
+import { useThemeConfig } from "@docusaurus/theme-common";
+import useBaseUrl from "@docusaurus/useBaseUrl";
+import styles from "./styles.module.css";
+import ThemedImage from "@theme/ThemedImage";
 
-function FooterLink({to, href, label, prependBaseUrlToHref, ...props}) {
+function FooterLink({ to, href, label, prependBaseUrlToHref, ...props }) {
   const toUrl = useBaseUrl(to);
   const normalizedHref = useBaseUrl(href, {
     forcePrependBaseUrl: true,
@@ -27,19 +27,20 @@ function FooterLink({to, href, label, prependBaseUrlToHref, ...props}) {
         : {
             to: toUrl,
           })}
-      {...props}>
+      {...props}
+    >
       {label}
     </Link>
   );
 }
 
-const FooterLogo = ({sources, alt}) => (
+const FooterLogo = ({ sources, alt }) => (
   <ThemedImage className="footer__logo" alt={alt} sources={sources} />
 );
 
 function Footer() {
-  const {footer} = useThemeConfig();
-  const {copyright, links = [], logo = {}} = footer || {};
+  const { footer } = useThemeConfig();
+  const { copyright, links = [], logo = {} } = footer || {};
   const sources = {
     light: useBaseUrl(logo.src),
     dark: useBaseUrl(logo.srcDark || logo.src),
@@ -51,9 +52,10 @@ function Footer() {
 
   return (
     <footer
-      className={clsx('footer', {
-        'footer--dark': footer.style === 'dark',
-      })}>
+      className={clsx("footer", {
+        "footer--dark": footer.style === "dark",
+      })}
+    >
       <div className="container">
         {links && links.length > 0 && (
           <div className="row footer__links">
@@ -80,7 +82,7 @@ function Footer() {
                         <li key={item.href || item.to} className="footer__item">
                           <FooterLink {...item} />
                         </li>
-                      ),
+                      )
                     )}
                   </ul>
                 ) : null}
