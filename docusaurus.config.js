@@ -1,34 +1,39 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: "My Site",
+  title: "Dream Sports",
   tagline: "Dinosaurs are cool",
   url: "https://saurabhkacholiya.github.io",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
+  favicon:
+    "https://d13ir53smqqeyp.cloudfront.net/contain/marketing/landing_pages/favicon.ico",
   organizationName: "saurabhkacholiya.github.io", // Usually your GitHub org/user name.
   projectName: "docusaurus-cms-poc", // Usually your repo name.
   themeConfig: {
+    colorMode: {
+      defaultMode: "light",
+      disableSwitch: true,
+    },
     navbar: {
-      title: "My Site",
+      title: "Dream11",
       logo: {
-        alt: "My Site Logo",
-        src: "img/logo.svg",
+        alt: "Dream11 Logo",
+        src: "https://d13ir53smqqeyp.cloudfront.net/contain/marketing/landing_pages/favicon.ico",
       },
       items: [
-        {
-          type: "doc",
-          docId: "intro",
-          position: "right",
-          label: "Tutorial",
-        },
-        { to: "/blog", label: "Blog", position: "right" },
-        {
-          href: "https://github.com/facebook/docusaurus",
-          label: "GitHub",
-          position: "right",
-        },
+        // {
+        //   type: "doc",
+        //   docId: "intro",
+        //   position: "right",
+        //   label: "Tutorial",
+        // },
+        // { to: "/blog", label: "Blog", position: "right" },
+        // {
+        //   href: "https://github.com/facebook/docusaurus",
+        //   label: "GitHub",
+        //   position: "right",
+        // },
       ],
     },
     footer: {
@@ -89,8 +94,8 @@ module.exports = {
         },
         blog: {
           showReadingTime: true,
-          // routeBasePath: "/",
-          // path: "blog",
+          routeBasePath: "/",
+          path: "blog",
           // Please change this to your repo.
           editUrl:
             "https://github.com/facebook/docusaurus/edit/master/website/blog/",

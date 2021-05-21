@@ -14,6 +14,8 @@ Earlier working with github I had great success using [hub](https://github.com/g
 Unfortunately I didn't find any tool which could create merge request for me painlessly like I could do with hub, so I decided to create one myself.
 Outcome was [gitlab-cli](https://github.com/vishwanatharondekar/gitlab-cli)
 
+<!--truncate-->
+
 ### gitlab cli
 
 Gitlab-cli tries to re-create some of the useful functionalities present in hub. It is built in nodejs. You can find the install instructions at [gitlab-cli](https://github.com/vishwanatharondekar/gitlab-cli)
