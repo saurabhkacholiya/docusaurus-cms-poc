@@ -22,7 +22,7 @@ Leaderboard generation starts by calculating total points earned by every one of
 
 The Leaderboard at [Dream11](https://www.dream11.com/) is internally powered by the point calculation engine, code named “**Aryabhata”** and here’s what it looks like:
 
-!\[](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHMYwz-MRZJUg2b_nVVBQArgPTDpFWv0tF0Q&usqp=CAU)
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHMYwz-MRZJUg2b_nVVBQArgPTDpFWv0tF0Q&usqp=CAU)
 
 ***The*** ***[Dream11](https://www.dream11.com/)*** ***Leaderboard — scale, technology and reliability considerations that influenced our engineering decisions***
 
