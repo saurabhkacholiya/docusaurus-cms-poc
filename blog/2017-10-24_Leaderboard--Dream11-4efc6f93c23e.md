@@ -1,10 +1,12 @@
 ---
+keywords: []
 slug: Leaderboard-Dream11
 title: Leaderboard @Dream11
-description: Scale to serve 100+ million reads/writes using Spark and Cassandra
+author_image_url: null
 date: 2017-10-24T09:57:55.359Z
+description: Scale to serve 100+ million reads/writes using Spark and Cassandra
+image: https://image.shutterstock.com/image-vector/vampire-horror-logo-icon-vector-260nw-1768794029.jpg
 categories: []
-keywords: []
 ---
 
 _Scale to serve 100+ million reads/writes using Spark and Cassandra_
