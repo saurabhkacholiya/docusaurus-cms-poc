@@ -1,15 +1,13 @@
 ---
 slug: hackathon-2017
 title: "Dream11 Hackathon 2017: Building trust, one idea at a time"
-description:
-  “A team is not a group of people who work together. A team is a group of
-  people who trust each other.”
-date: "2017-12-08T04:59:19.522Z"
+date: 2017-12-08T04:59:19.522Z
+description: “A team is not a group of people who work together. A team is a
+  group of people who trust each other.”
 categories: []
 keywords: []
 ---
-
-_“A team is not a group of people who work together. A team is a group of people who trust each other.”_
+*“A team is not a group of people who work together. A team is a group of people who trust each other.”*
 
 \-Simon Sinek
 
@@ -17,33 +15,33 @@ Trust and transparency have always been (and will always be) the cornerstones of
 
 **The ideation and voting process**
 
-<!-- ![](../static/img1__MSpjhvPI13qM1SsFQqwKug.jpeg) -->
+<!-- !\[](../static/img1__MSpjhvPI13qM1SsFQqwKug.jpeg) -->
 
 <!--truncate-->
 
 undefined
 
-So it was only apt that the **theme of the** [**Dream11**](https://www.dream11.com/) **Hackathon 2017 (29th November — 1st December) was ‘Trust**’. While we are primarily a Sports Tech company, we also have a lot of functions that don’t work on technology — Marketing, HR, Customer Success, etc. What made this Hackathon unique was that we invited entries for both tech and non-tech ideas from the Dreamsters. The best ideas would then be voted for by every Dreamster and the top 14 ideas would be ready for execution.
+So it was only apt that the **theme of the** **[Dream11](https://www.dream11.com/)** **Hackathon 2017 (29th November — 1st December) was ‘Trust**’. While we are primarily a Sports Tech company, we also have a lot of functions that don’t work on technology — Marketing, HR, Customer Success, etc. What made this Hackathon unique was that we invited entries for both tech and non-tech ideas from the Dreamsters. The best ideas would then be voted for by every Dreamster and the top 14 ideas would be ready for execution.
 
 Each idea needed to fulfill three conditions:
 
-1.  It had to have **high impact on trust**
-2.  It had to be **executed in 2 weeks**
-3.  It had to be **easily scalable**
+1. It had to have **high impact on trust**
+2. It had to be **executed in 2 weeks**
+3. It had to be **easily scalable**
 
 While we were expecting a good response, the amount of entries that came in surprised us. That’s the beauty of opening up the ideation process — ideas come from the unlikeliest of sources. A Marketing team member suggesting a tech innovation, a member of the Finance Team suggesting a solution towards strengthening our legal framework, an idea to revamp the UI of our contests page — these were just some of the many, many ideas that were put across and voted for. In the end, a total of 14 ideas (11 tech + 3 non-tech) were finalised for execution.
 
 **The Grand Auction**
 
-<!-- ![](../static/img1__LYmv8__ed1igotO81eNpUvQ.png) -->
+<!-- !\[](../static/img1\_\_LYmv8\_\_ed1igotO81eNpUvQ.png) -->
 
-undefined
+<!--truncate-->
 
 We love the excitement and thrills that come with every aspect of sports. This is why we decided to set up an auction in the style of popular T20 leagues to add an extra element of fun and strategy to the entire process. Each team captain (the person whose idea was selected) had **100 credits to pick a minimum of 5 team mates**, who were divided into categories like Frontend and Backend developers, Quality Analysts, Marketing, HR, etc. similar to the categories you’d have in cricket. As expected, the excitement reached a fever pitch as the captains furiously attempted to outbid each other for their preferred teammates.
 
 **48 hours of madness**
 
-<!-- ![](../static/img1__idugXzOIi7VgY__4COLK5Og.png) -->
+<!-- !\[](../static/img1\_\_idugXzOIi7VgY\_\_4COLK5Og.png) -->
 
 undefined
 
@@ -51,7 +49,7 @@ With the auctions done and dusted, it was time to get to work! Each team had 48 
 
 **The judging process**
 
-<!-- ![](../static/img1__eR__C6AXLG__yFUlaIO243cw.png) -->
+<!-- !\[](../static/img1\_\_eR\_\_C6AXLG__yFUlaIO243cw.png) -->
 
 undefined
 
@@ -73,7 +71,7 @@ The criteria for judging were:
 
 **The presentations**
 
-<!-- ![](../static/img1__la7WOvyyjFvj3j36MOwH3w.png) -->
+<!-- !\[](../static/img1__la7WOvyyjFvj3j36MOwH3w.png) -->
 
 undefined
 
@@ -81,7 +79,7 @@ A great idea deserves a great, crisp presentation. Each team had 7 minutes to pr
 
 **The winners**
 
-<!-- ![](../static/img1__avugaiAjY5uEr1GszED7ig.png) -->
+<!-- !\[](../static/img1__avugaiAjY5uEr1GszED7ig.png) -->
 
 undefined
 
@@ -117,7 +115,7 @@ Besides the winners, there were several other ideas that were considered to be p
 
 **What we learned**
 
-<!-- ![](../static/img1__W0hSVQoTXiaI7NXQvFyLEw.jpeg) -->
+<!-- !\[](../static/img1__W0hSVQoTXiaI7NXQvFyLEw.jpeg) -->
 
 undefined
 
