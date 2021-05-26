@@ -1,7 +1,10 @@
 backend:
   name: git-gateway
   branch: main
-local_backend: true
+  repo: https://github.com/saurabhkacholiya/docusaurus-cms-poc
+  base_url: https://saurabhkacholiya.github.io/ #docusaurus-cms-poc/
+  auth_endpoint: api/auth
+#local_backend: true
 media_folder: "assets/uploads"
 collections:
   - name: "blog"
