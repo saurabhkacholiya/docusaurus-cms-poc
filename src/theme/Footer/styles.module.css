@@ -5,11 +5,36 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-/* .footerLogoLink {
+.footerLogoLink {
   opacity: 0.5;
-  transition: opacity var(--ifm-transition-fast) var(--ifm-transition-timing-default);
+  transition: opacity var(--ifm-transition-fast)
+    var(--ifm-transition-timing-default);
 }
 
 .footerLogoLink:hover {
   opacity: 1;
-} */
+}
+
+.footer_top {
+  background: #373737;
+  color: #fff;
+  min-height: 200px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; */
+}
+
+.main_div {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.footer_social {
+  flex-direction: row;
+  margin-top: 15px;
+}

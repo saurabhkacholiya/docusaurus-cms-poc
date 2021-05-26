@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "@theme/Layout";
+import Layout from "../theme/Layout/index";
 
 function Hello() {
   return (

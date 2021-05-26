@@ -40,82 +40,64 @@ const FooterLogo = ({ sources, alt }) => (
 
 function Footer() {
   const { footer } = useThemeConfig();
-  const { copyright, links = [], logo = {} } = footer || {};
-  const sources = {
-    light: useBaseUrl(logo.src),
-    dark: useBaseUrl(logo.srcDark || logo.src),
-  };
+  console.log("footer", footer);
+  // const { copyright, links = [], logo = {} } = footer || {};
+  // const sources = {
+  //   light: useBaseUrl(logo.src),
+  //   dark: useBaseUrl(logo.srcDark || logo.src),
+  // };
 
-  if (!footer) {
-    return null;
-  }
+  // if (!footer) {
+  //   return null;
+  // }
 
   return (
-    <footer
-      className={clsx("footer", {
-        "footer--dark": footer.style === "dark",
-      })}
-    >
-      <div className="container">
-        {links && links.length > 0 && (
-          <div className="row footer__links">
-            {links.map((linkItem, i) => (
-              <div key={i} className="col footer__col">
-                {linkItem.title != null ? (
-                  <h4 className="footer__title">{linkItem.title}</h4>
-                ) : null}
-                {linkItem.items != null &&
-                Array.isArray(linkItem.items) &&
-                linkItem.items.length > 0 ? (
-                  <ul className="footer__items">
-                    {linkItem.items.map((item, key) =>
-                      item.html ? (
-                        <li
-                          key={key}
-                          className="footer__item" // Developer provided the HTML, so assume it's safe.
-                          // eslint-disable-next-line react/no-danger
-                          dangerouslySetInnerHTML={{
-                            __html: item.html,
-                          }}
-                        />
-                      ) : (
-                        <li key={item.href || item.to} className="footer__item">
-                          <FooterLink {...item} />
-                        </li>
-                      )
-                    )}
-                  </ul>
-                ) : null}
-              </div>
-            ))}
+    <>
+      <div className={styles.footer_top}>
+        <div className={styles.main_div}>
+          <img
+            style={{ height: 34, width: 240 }}
+            src="https://d13ir53smqqeyp.cloudfront.net/d11-static-pages/images/logo_dream_sport_footer.webp"
+          />
+          <div className={styles.footer_social}>
+            <img
+              src="https://d13ir53smqqeyp.cloudfront.net/d11-static-pages/images/facebook1.webp"
+              style={{ height: 32, width: 32, marginRight: 10, marginLeft: 3 }}
+            />
+            <img
+              src="https://d13ir53smqqeyp.cloudfront.net/d11-static-pages/images/twitter1.webp"
+              style={{ height: 32, width: 32, marginRight: 10 }}
+            />
+            <img
+              src="https://d13ir53smqqeyp.cloudfront.net/d11-static-pages/images/linkedin1.webp"
+              style={{ height: 32, width: 32, marginRight: 10 }}
+            />
+            <img
+              src="https://d13ir53smqqeyp.cloudfront.net/d11-static-pages/images/linkedin1.webp"
+              style={{ height: 32, width: 32, marginRight: 10 }}
+            />
+            <img
+              src="https://d13ir53smqqeyp.cloudfront.net/d11-static-pages/images/instagram.webp"
+              style={{ height: 32, width: 32, marginRight: 10 }}
+            />
           </div>
-        )}
-        {(logo || copyright) && (
-          <div className="footer__bottom text--center">
-            {logo && (logo.src || logo.srcDark) && (
-              <div className="margin-bottom--sm">
-                {logo.href ? (
-                  <Link href={logo.href} className={styles.footerLogoLink}>
-                    <FooterLogo alt={logo.alt} sources={sources} />
-                  </Link>
-                ) : (
-                  <FooterLogo alt={logo.alt} sources={sources} />
-                )}
-              </div>
-            )}
-            {copyright ? (
-              <div
-                className="footer__copyright" // Developer provided the HTML, so assume it's safe.
-                // eslint-disable-next-line react/no-danger
-                dangerouslySetInnerHTML={{
-                  __html: copyright,
-                }}
-              />
-            ) : null}
+          <div
+            style={{
+              height: 1,
+              width: 1000,
+              backgroundColor: "#828282",
+              marginTop: 20,
+              marginBottom: 20,
+            }}
+          />
+          <div>CORPORATE OFFICE</div>
+          <div>
+            Unit No. 1802, 18th Floor, Tower B, Peninsula Business Park, Off
+            Senapati Bapat Marg, Lower Parel, Mumbai 400013
           </div>
-        )}
+        </div>
       </div>
-    </footer>
+    </>
   );
 }
 
