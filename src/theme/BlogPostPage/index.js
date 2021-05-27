@@ -6,7 +6,8 @@
  */
 import React from "react";
 import Layout from "../Layout/index";
-import BlogPostItem from "@theme/BlogPostItem";
+import BlogPostItem from "../BlogPostItem";
+
 import BlogPostPaginator from "@theme/BlogPostPaginator";
 import BlogSidebar from "@theme/BlogSidebar";
 import TOC from "@theme/TOC";

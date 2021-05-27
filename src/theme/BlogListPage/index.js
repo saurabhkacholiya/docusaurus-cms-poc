@@ -6,8 +6,9 @@
  */
 import React from "react";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import Layout from "../Layout/index";
-import BlogPostItem from "@theme/BlogPostItem";
+import Layout from "../Layout";
+import BlogPostItem from "../BlogPostItem";
+
 import BlogListPaginator from "@theme/BlogListPaginator";
 import BlogSidebar from "@theme/BlogSidebar";
 import { ThemeClassNames } from "@docusaurus/theme-common";

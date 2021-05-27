@@ -47,9 +47,9 @@ function Footer() {
   //   dark: useBaseUrl(logo.srcDark || logo.src),
   // };
 
-  // if (!footer) {
-  //   return null;
-  // }
+  if (!footer.links.length === 0) {
+    return null;
+  }
 
   return (
     <>

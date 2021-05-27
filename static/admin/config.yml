@@ -1,9 +1,9 @@
 backend:
-  name: git-gateway
+  name: github
   branch: main
-  repo: https://github.com/saurabhkacholiya/docusaurus-cms-poc
-  base_url: https://saurabhkacholiya.github.io/ #docusaurus-cms-poc/
-  auth_endpoint: api/auth
+  repo: saurabhkacholiya/docusaurus-cms-poc
+  site_domain: http://localhost:3001/
+  base_url: http://localhost:3000/ #backend url
 #local_backend: true
 media_folder: "assets/uploads"
 collections:

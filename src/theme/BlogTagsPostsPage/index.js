@@ -6,7 +6,8 @@
  */
 import React from "react";
 import Layout from "../Layout/index";
-import BlogPostItem from "@theme/BlogPostItem";
+import BlogPostItem from "../BlogPostItem";
+
 import Link from "@docusaurus/Link";
 import BlogSidebar from "@theme/BlogSidebar";
 import Translate, { translate } from "@docusaurus/Translate";
