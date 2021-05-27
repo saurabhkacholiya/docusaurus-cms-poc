@@ -14,7 +14,11 @@ By [Bharat Vishwakarma](https://www.linkedin.com/in/bharatvishwakarma/), [Amit M
 
 ***[Dream11](https://www.dream11.com/)*** ***— Leading the Pack in Fantasy Sports***
 
-[Dream11](https://www.dream11.com/) is India’s #1 Fantasy Sports platform with a growing user base of over 15 million Indians playing Fantasy Cricket, Football & Kabaddi. To play on [Dream11](https://www.dream11.com/), users create a virtual team of real players, who score points based on their real-life performance in the upcoming match. Our ‘**Leaderboard**’ feature enables all our users to see how their team ranks amongst all other competing teams, as their points are updated every minute during every match. The excitement our users feel while watching their chosen players score points for their team with every four, six, wicket, goal, etc. is the core of our entire user experience.
+
+
+
+
+
 
 <!--truncate-->
 
@@ -75,7 +79,7 @@ Also, since the Leaderboard data mutates every 60 seconds, we analyzed that a ca
 
 The image below shows our full Leaderboard architecture:
 
-<!-- !\[](../static/img1\_\_G3QgtcauLu\_\_mRgKuZqpmyA.jpeg) -->
+<!-- !\\[](../static/img1\_\\_G3QgtcauLu\\_\_mRgKuZqpmyA.jpeg) -->
 
 1. [Dream11](https://www.dream11.com/) API is an edge service that serves all requests
 2. Resources consumed and created are saved to mysql database
