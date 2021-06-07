@@ -16,8 +16,6 @@ By [Bharat Vishwakarma](https://www.linkedin.com/in/bharatvishwakarma/), [Amit M
 
 <!--truncate-->
 
-
-
 Testing if works
 
 Save Test 3
@@ -25,6 +23,10 @@ Save Test 3
 Leaderboard generation starts by calculating total points earned by every one of up to 6 teams created by each of our 15 million users. These points are calculated as per the composition of up to 11 players selected from the squad and points scored by the players for every action. These teams are then grouped by the participating contest, sorted by total points and ranked as per competitive ranking to create the Leaderboard for a contest. Leaderboards are updated every minute across thousands of contests for multiple matches being played at the same time.
 
 The Leaderboard at [Dream11](https://www.dream11.com/) is internally powered by the point calculation engine, code named “**Aryabhata”** and here’s what it looks like:
+
+
+
+Hello.
 
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHMYwz-MRZJUg2b_nVVBQArgPTDpFWv0tF0Q&usqp=CAU)
 
@@ -79,7 +81,7 @@ Also, since the Leaderboard data mutates every 60 seconds, we analyzed that a ca
 
 The image below shows our full Leaderboard architecture:
 
-<!-- !\\\\\\[](../static/img1\_\\\\\\_G3QgtcauLu\\\\\\_\_mRgKuZqpmyA.jpeg) -->
+<!-- !\\\\\\\[](../static/img1\_\\\\\\\_G3QgtcauLu\\\\\\\_\_mRgKuZqpmyA.jpeg) -->
 
 1. [Dream11](https://www.dream11.com/) API is an edge service that serves all requests
 2. Resources consumed and created are saved to mysql database
