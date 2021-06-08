@@ -15,9 +15,11 @@ Trust and transparency have always been (and will always be) the cornerstones of
 
 **The ideation and voting process**
 
-<!-- !\[](../static/img1__MSpjhvPI13qM1SsFQqwKug.jpeg) -->
+<!-- !\\[](../static/img1__MSpjhvPI13qM1SsFQqwKug.jpeg) -->
 
 <!--truncate-->
+
+Hello 
 
 undefined
 
@@ -33,7 +35,7 @@ While we were expecting a good response, the amount of entries that came in surp
 
 **The Grand Auction**
 
-<!-- !\[](../static/img1\_\_LYmv8\_\_ed1igotO81eNpUvQ.png) -->
+<!-- !\\[](../static/img1\_\\_LYmv8\\_\_ed1igotO81eNpUvQ.png) -->
 
 <!--truncate-->
 
@@ -41,7 +43,7 @@ We love the excitement and thrills that come with every aspect of sports. This i
 
 **48 hours of madness**
 
-<!-- !\[](../static/img1\_\_idugXzOIi7VgY\_\_4COLK5Og.png) -->
+<!-- !\\[](../static/img1\_\\_idugXzOIi7VgY\\_\_4COLK5Og.png) -->
 
 undefined
 
@@ -49,7 +51,7 @@ With the auctions done and dusted, it was time to get to work! Each team had 48 
 
 **The judging process**
 
-<!-- !\[](../static/img1\_\_eR\_\_C6AXLG__yFUlaIO243cw.png) -->
+<!-- !\\[](../static/img1\_\\_eR\\_\_C6AXLG__yFUlaIO243cw.png) -->
 
 undefined
 
@@ -71,7 +73,7 @@ The criteria for judging were:
 
 **The presentations**
 
-<!-- !\[](../static/img1__la7WOvyyjFvj3j36MOwH3w.png) -->
+<!-- !\\[](../static/img1__la7WOvyyjFvj3j36MOwH3w.png) -->
 
 undefined
 
@@ -79,7 +81,7 @@ A great idea deserves a great, crisp presentation. Each team had 7 minutes to pr
 
 **The winners**
 
-<!-- !\[](../static/img1__avugaiAjY5uEr1GszED7ig.png) -->
+<!-- !\\[](../static/img1__avugaiAjY5uEr1GszED7ig.png) -->
 
 undefined
 
@@ -115,7 +117,7 @@ Besides the winners, there were several other ideas that were considered to be p
 
 **What we learned**
 
-<!-- !\[](../static/img1__W0hSVQoTXiaI7NXQvFyLEw.jpeg) -->
+<!-- !\\[](../static/img1__W0hSVQoTXiaI7NXQvFyLEw.jpeg) -->
 
 undefined
 
